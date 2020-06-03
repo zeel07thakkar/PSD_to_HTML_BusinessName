@@ -1,0 +1,194 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	box-sizing: border-box;
+}
+/* Designer Scrollbar */
+body::-webkit-scrollbar
+{
+  width: 12px;
+}
+body::-webkit-scrollbar-track
+{
+  background-color: #212529;
+}
+body::-webkit-scrollbar-thumb
+{
+  background-color:#686c71;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+ /* -----------navbar---------------- */
+.navbar-toggler-icon:hover
+{
+	transform: rotate(180deg) !important;
+	transition: transform 0.5s ease-in;
+}
+.navbar-brand
+{
+	font-family: 'Crimson Text', serif !important;
+	font-size: xx-large !important;
+}
+
+/* --------Carousle CSS------------ */
+ .my-banner
+ {
+ 	padding-right: 0px !important;
+ 	padding-left: 0px !important;
+ 	height:500px;
+ }
+ .carousel-caption
+ {
+ 	bottom: 160px !important;
+ 	font-family: 'Crimson Text', serif !important;
+ }
+ .arrow_icon:hover
+ {
+		font-size: 40px !important;
+		opacity: 0.5;
+}
+
+/* --------AboutUs CSS-------- */
+ .my_about_section
+{
+	height: auto;
+	/* border: 1px solid black; */
+	padding-right: 0px !important;
+ 	padding-left: 0px !important;
+}
+.side_img
+{
+	background-image: url('../img/img5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	height: auto;
+}
+@media screen and (max-width:770px)
+{
+	.side_img
+	{
+		height: 300px;
+		width: 100%;
+		display: block;
+	}
+} 
+.about_section
+{
+	height: auto;
+	background-color: #ffd460;
+	padding: 50px;
+	width: 100%;
+	color: white;
+	font-weight: 600;
+
+}
+
+/* -------Portfolio CSS---- */
+.gallery_img
+{
+	height: 200px;
+	cursor: pointer;
+	transition: transform 1s ease-in;
+}
+
+.gallery_img:hover
+{
+	transform:scale(0.7);
+	box-shadow: 2px 2px 9px 3px #c7baba;
+}
+.gallery_img:hover::before
+{
+	content: "Hover Over Me!!!";
+	background-color:#007bff !important;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0.5;
+	color: white;
+	padding: 80px 0px;
+	font-size: xx-large;
+	text-align: center;
+	font-family: 'Crimson Text', serif !important;
+}
+.blue_bg
+{
+	background-color:#149ddd !important;
+	border-radius: 10px;
+}
+.white
+{
+	color: white !important;
+}
+
+
+/* ---------testimonials CSS--------- */
+#testimonials
+{
+	height: auto;
+	padding: 130px 0px;
+}
+.testimonials_li
+{
+	background-color: #17a2b8 !important;
+	width: 15px !important;
+    height: 15px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    border-radius: 50%;
+}
+
+.cursive-font
+{
+	font-family: cursive;
+}
+
+/* -------ContactUs CSS --------*/
+.contact_form label
+{
+	font-weight: bold;
+}
+
+/* -------Copyright Footer CSS------ */
+.copyright_footer
+{
+	background-color: #222528;
+	padding: 20px 0px;
+}
+.social_icon:hover
+{
+	transform: rotate(360deg) !important;
+	transition: transform 1s ease-in;
+	color: cyan !important;
+}
+.back-to-top{
+
+ position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: #149ddd;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+}
+.back-to-top i
+{
+	bottom: 10px;
+	left: 8px;
+	position: absolute;
+	font-size: 24px;
+}
