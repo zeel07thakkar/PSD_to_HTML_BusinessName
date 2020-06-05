@@ -97,14 +97,15 @@ body::-webkit-scrollbar-thumb
 {
 	height: 200px;
 	cursor: pointer;
-	transition: transform 1s ease-in;
+	
 }
 
 .gallery_img:hover
 {
-	transform:scale(0.7);
-	box-shadow: 2px 2px 9px 3px #c7baba;
+	/* transform:scale(0.7);
+	box-shadow: 2px 2px 9px 3px #c7baba; */
 }
+
 .gallery_img:hover::before
 {
 	content: "Hover Over Me!!!";
@@ -121,6 +122,7 @@ body::-webkit-scrollbar-thumb
 	text-align: center;
 	font-family: 'Crimson Text', serif !important;
 }
+
 .blue_bg
 {
 	background-color:#149ddd !important;
