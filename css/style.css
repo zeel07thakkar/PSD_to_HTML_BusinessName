@@ -9,6 +9,7 @@ html
 body
 {
 	box-sizing: border-box;
+	overflow-x: hidden;
 }
 /* Designer Scrollbar */
 body::-webkit-scrollbar
@@ -35,6 +36,15 @@ body::-webkit-scrollbar-thumb
 {
 	font-family: 'Crimson Text', serif !important;
 	font-size: xx-large !important;
+}
+.active_link
+{
+	color: #ffd460 !important;
+
+}
+.add_header
+{
+	background-color: #343a40;
 }
 
 /* --------Carousle CSS------------ */
